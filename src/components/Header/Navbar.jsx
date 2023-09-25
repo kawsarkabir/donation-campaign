@@ -1,21 +1,18 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div>
       <nav className="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="#" className="flex items-center">
+          <Link href="#" className="flex items-center">
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="h-8 mr-3"
-              alt="Flowbite Logo"
+              src="https://i.ibb.co/kQsgggy/Logo.png"
+              className="h-10 mr-3"
+              alt="Logo"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Flowbite
-            </span>
-          </a>
+          </Link>
           <button
             data-collapse-toggle="navbar-solid-bg"
             type="button"
