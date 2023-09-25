@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div>
       <div
-        className="hero min-h-screen"
+        className="hero h-[80vh]"
         style={{
           backgroundImage:
             "url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
@@ -22,7 +22,9 @@ const Banner = () => {
                 placeholder="Type here"
                 className="input input-bordered rounded-r-none "
               />
-              <button className="btn btn-primary rounded-l-none">Get Started</button>
+              <button className="btn btn-primary rounded-l-none">
+                Get Started
+              </button>
             </div>
           </div>
         </div>
