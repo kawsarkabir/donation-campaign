@@ -5,7 +5,7 @@ import Campaings from "../../components/Campaings/Campaings";
 
 const Home = () => {
     const campaings = useLoaderData()
-    console.log(campaings);
+    
   return (
     <div>
       <Banner />
