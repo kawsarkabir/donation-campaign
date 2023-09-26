@@ -1,6 +1,10 @@
 import React from "react";
 
 const Banner = () => {
+  const handleSearch = (e) => {
+    e.preventDefault()
+    console.log(e.target);
+  };
   return (
     <div>
       <div
@@ -19,11 +23,15 @@ const Banner = () => {
             <div className="flex justify-center">
               <input
                 type="text"
+                id="searchBtn"
                 placeholder="Type here"
                 className="input input-bordered rounded-r-none "
               />
-              <button className="btn btn-primary rounded-l-none">
-                Get Started
+              <button
+                onClick={handleSearch}
+                className="btn btn-primary rounded-l-none"
+              >
+                Search
               </button>
             </div>
           </div>

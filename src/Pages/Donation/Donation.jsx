@@ -20,7 +20,7 @@ const Donation = () => {
           {noDataFound}
         </p>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 px-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 px-2">
           {donation.slice(0, dataLength).map((donation) => (
             <DonationCard key={donation.id} donation={donation} />
           ))}

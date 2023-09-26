@@ -23,14 +23,14 @@ const DetailsCard = ({ details }) => {
       }
     }
   };
-  const { picture, id, title, description, price } = details;
+  const { picture, id, title, description, price, text_color } = details;
   return (
     <div className="max-w-screen-xl mx-auto my-16 px-5">
       <img src={picture} alt="" className="rounded-lg w-full" />
       <div className="bg-[#0B0B0B] bg-opacity-60 relative -top-24 rounded-b py-6">
         <button
           onClick={handleDonation}
-          className="btn bg-red-500 px-10 ml-5 border-none text-white"
+          className="btn px-10 ml-5 border-none text-white" style={{background: text_color}}
         >
           DONATION ${price}
         </button>
