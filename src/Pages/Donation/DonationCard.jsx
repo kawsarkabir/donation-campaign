@@ -2,10 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const DonationCard = ({ donation }) => {
-  // console.log(donation);
   const {
     id,
-    image,
+    picture,
     text_color,
     card_bg_color,
     button_bg_color,
@@ -18,7 +17,7 @@ const DonationCard = ({ donation }) => {
       <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md" style={{background:card_bg_color}}>
         <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
           <img
-            src= {image}
+            src= {picture}
             alt="image"
             className="h-full w-full object-cover"
           />

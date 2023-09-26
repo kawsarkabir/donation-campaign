@@ -23,10 +23,10 @@ const DetailsCard = ({ details }) => {
       }
     }
   };
-  const { image, id, title, description, price } = details;
+  const { picture, id, title, description, price } = details;
   return (
     <div className="max-w-screen-xl mx-auto my-16 px-5">
-      <img src={image} alt="" className="rounded-lg w-full" />
+      <img src={picture} alt="" className="rounded-lg w-full" />
       <div className="bg-[#0B0B0B] bg-opacity-60 relative -top-24 rounded-b py-6">
         <button
           onClick={handleDonation}
