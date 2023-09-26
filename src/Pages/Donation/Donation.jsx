@@ -6,6 +6,7 @@ const Donation = () => {
   const [donation, setDonation] = useState([]);
   const [noDataFound, setNoDataFound] = useState(false);
   const donationItems = JSON.parse(localStorage.getItem("donation"));
+  console.log(donationItems);
   useEffect(() => {
     if (donationItems) {
       setDonation(donationItems);
@@ -14,7 +15,7 @@ const Donation = () => {
     }
   }, []);
   return (
-    <div>
+    <div className="max-w-screen-xl mt-10 mx-auto">
       {noDataFound ? (
         <p className="min-h-screen flex justify-center items-center">
           {noDataFound}

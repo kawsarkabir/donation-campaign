@@ -11,7 +11,7 @@ const Banner = () => {
         className="hero h-[80vh]"
         style={{
           backgroundImage:
-            "url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+            "url(https://i.ibb.co/s2mJzzn/Rectangle-4282.png)",
         }}
       >
         <div className="hero-overlay bg-opacity-80 bg-white"></div>
