@@ -1,6 +1,5 @@
-import React from "react";
 import swal from "sweetalert";
-
+import PropTypes from "prop-types";
 const DetailsCard = ({ details }) => {
   const handleDonation = () => {
     console.log(details);
@@ -18,8 +17,11 @@ const DetailsCard = ({ details }) => {
         localStorage.setItem("donation", JSON.stringify(arr));
         swal("Congratulation !!", "Donation Successfully!", "success");
       } else {
-        swal("Don't duplicate donation items!", "You can clicked the another donation item!", "error");
-
+        swal(
+          "Don't duplicate donation items!",
+          "You can clicked the another donation item!",
+          "error"
+        );
       }
     }
   };
@@ -30,7 +32,8 @@ const DetailsCard = ({ details }) => {
       <div className="bg-[#0B0B0B] bg-opacity-60 relative -top-24 rounded-b py-6">
         <button
           onClick={handleDonation}
-          className="btn px-10 ml-5 border-none text-white" style={{background: text_color}}
+          className="btn px-10 ml-5 border-none text-white"
+          style={{ background: text_color }}
         >
           DONATION ${price}
         </button>
@@ -40,5 +43,7 @@ const DetailsCard = ({ details }) => {
     </div>
   );
 };
-
+DetailsCard.propTypes = {
+  details: PropTypes.object,
+};
 export default DetailsCard;

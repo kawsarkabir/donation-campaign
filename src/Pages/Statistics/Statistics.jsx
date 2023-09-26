@@ -16,7 +16,7 @@ const Statistics = () => {
   data.push(totalDonation);
   data.push(yourDonation);
 
-  const COLORS = ["#00C49F", "#FF8042"];
+  const COLORS = ["#FF444A", "#00C49F"];
   const RADIAN = Math.PI / 180;
   const renderCustomizedLabel = ({
     cx,
@@ -25,7 +25,6 @@ const Statistics = () => {
     innerRadius,
     outerRadius,
     percent,
-    index,
   }) => {
     const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
     const x = cx + radius * Math.cos(-midAngle * RADIAN);

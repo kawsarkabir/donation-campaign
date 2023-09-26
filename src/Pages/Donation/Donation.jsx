@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import DonationCard from "./DonationCard";
 
 const Donation = () => {
@@ -6,7 +6,7 @@ const Donation = () => {
   const [donation, setDonation] = useState([]);
   const [noDataFound, setNoDataFound] = useState(false);
   const donationItems = JSON.parse(localStorage.getItem("donation"));
-  console.log(donationItems);
+  
   useEffect(() => {
     if (donationItems) {
       setDonation(donationItems);
@@ -31,7 +31,7 @@ const Donation = () => {
         <div className={dataLength === donation.length && "hidden"}>
           <button
             onClick={() => setDataLength(donation.length)}
-            className={donation.length > 4 ? "block btn btn-primary" : "hidden"}
+            className={donation.length > 4 ? "block btn text-white px-8 bg-blue-700 hover:bg-blue-800" : "hidden"}
           >
             show all
           </button>

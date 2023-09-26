@@ -12,7 +12,7 @@
   },
   {
     "id": "2",
-    "picture": "https://i.ibb.co/MZCpZBk/Education.png",
+    "picture": "https://i.ibb.co/WDHPCDq/education.jpg",
     "text_color": "#FF444A",
     "card_bg_color": "#ff444a26",
     "button_bg_color": "#ff444a33",
@@ -23,7 +23,7 @@
   },
   {
     "id": "3",
-    "picture": "https://i.ibb.co/yVQtzCx/Clothing.png",
+    "picture": "https://i.ibb.co/D8Gw4XW/clothing.jpg",
     "text_color": "#79C23F",
     "card_bg_color": "#79c23f26",
     "button_bg_color": "#79c23f33",
@@ -34,7 +34,7 @@
   },
   {
     "id": "4",
-    "picture": "https://i.ibb.co/NZNMD7p/Food.png",
+    "picture": "https://i.ibb.co/cLhyh9n/food.jpg",
     "text_color": "#F87147",
     "card_bg_color": "#f8714726",
     "button_bg_color": "#f8714733",
@@ -46,7 +46,7 @@
 
   {
     "id": "5",
-    "picture": "https://i.ibb.co/Kj9JzN6/health.jpg",
+    "picture": "https://i.ibb.co/WDHPCDq/education.jpg",
     "text_color": "#FF444A",
     "card_bg_color": "#ff444a26",
     "button_bg_color": "#ff444a33",
@@ -58,7 +58,7 @@
 
   {
     "id": "6",
-    "picture": "https://i.ibb.co/yVQtzCx/Clothing.png",
+    "picture": "https://i.ibb.co/D8Gw4XW/clothing.jpg",
     "text_color": "#79C23F",
     "card_bg_color": "#79c23f26",
     "button_bg_color": "#79c23f33",
@@ -70,7 +70,7 @@
 
   {
     "id": "7",
-    "picture": "https://i.ibb.co/NZNMD7p/Food.png",
+    "picture": "https://i.ibb.co/cLhyh9n/food.jpg",
     "text_color": "#F87147",
     "card_bg_color": "#f8714726",
     "button_bg_color": "#f8714733",
@@ -86,14 +86,14 @@
     "card_bg_color": "#0052ff26",
     "button_bg_color": "#0052ff33",
     "title": "Clean water for children",
-    "category": "Health", 
+    "category": "Health",
     "price": 120,
     "description": "Every child deserves a healthy start in life. Your donation can make a significant impact by supporting pediatric healthcare, vaccinations, and nutrition programs. Together, we can ensure that children have access to the medical care they need to thrive and grow. Your generous contribution of $120 can provide vital vaccinations and preventive care to protect children from life-threatening diseases. Join us in giving hope for children's health and a brighter future."
   },
 
   {
     "id": "9",
-    "picture": "https://i.ibb.co/yVQtzCx/Clothing.png",
+    "picture": "https://i.ibb.co/D8Gw4XW/clothing.jpg",
     "text_color": "#79C23F",
     "card_bg_color": "#79c23f26",
     "button_bg_color": "#79c23f33",
@@ -104,7 +104,7 @@
   },
   {
     "id": "10",
-    "picture": "https://i.ibb.co/HNybchr/Education.png",
+    "picture": "https://i.ibb.co/WDHPCDq/education.jpg",
     "text_color": "#FF444A",
     "card_bg_color": "#ff444a26",
     "button_bg_color": "#ff444a33",
@@ -126,7 +126,7 @@
   },
   {
     "id": "12",
-    "picture": "https://i.ibb.co/NZNMD7p/Food.png",
+    "picture": "https://i.ibb.co/cLhyh9n/food.jpg",
     "text_color": "#F87147",
     "card_bg_color": "#f8714726",
     "button_bg_color": "#f8714733",

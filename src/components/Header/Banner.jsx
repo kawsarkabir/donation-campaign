@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from 'prop-types';
 
 const Banner = ({ setSearchValue }) => {
   const [value, setValue] = useState("");
@@ -9,7 +10,7 @@ const Banner = ({ setSearchValue }) => {
   return (
     <div>
       <div
-        className="hero h-[80vh]"
+        className="hero h-[90vh]"
         style={{
           backgroundImage: "url(https://i.ibb.co/s2mJzzn/Rectangle-4282.png)",
         }}
@@ -25,13 +26,13 @@ const Banner = ({ setSearchValue }) => {
                 onChange={(e) => setValue(e.target.value)}
                 type="text"
                 id="searchBtn"
-                placeholder="Type here"
+                placeholder="search here.."
                 value={value}
                 className="input input-bordered rounded-r-none focus:outline-none"
               />
               <button
                 onClick={() => handleSearch(value)}
-                className="btn btn-primary rounded-l-none"
+                className="btn bg-red-500 text-white hover:bg-red-600 rounded-l-none"
               >
                 Search
               </button>
@@ -42,5 +43,9 @@ const Banner = ({ setSearchValue }) => {
     </div>
   );
 };
+
+Banner.propTypes = {
+  setSearchValue:PropTypes.object
+}
 
 export default Banner;

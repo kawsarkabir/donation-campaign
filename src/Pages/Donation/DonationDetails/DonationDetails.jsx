@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import DetailsCard from "./DetailsCard";
 
@@ -14,7 +14,7 @@ const DonationDetails = () => {
   }, [id, campaings]);
   return (
     <div>
-      <DetailsCard details={details}/>
+      <DetailsCard details={details} />
     </div>
   );
 };
