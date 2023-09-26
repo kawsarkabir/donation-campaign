@@ -26,11 +26,11 @@ const Donation = () => {
           ))}
         </div>
       )}
-      <div className="text-center">
+      <div className="flex justify-center items-center mt-5">
         <div className={dataLength === donation.length && "hidden"}>
           <button
             onClick={() => setDataLength(donation.length)}
-            className="btn btn-primary text-center my-5"
+            className={donation.length > 4 ? "block btn btn-primary" : "hidden"}
           >
             show all
           </button>
