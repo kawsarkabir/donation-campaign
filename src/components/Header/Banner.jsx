@@ -1,17 +1,17 @@
-import React from "react";
+import { useState } from "react";
 
-const Banner = () => {
-  const handleSearch = (e) => {
-    e.preventDefault()
-    console.log(e.target);
+const Banner = ({ setSearchValue }) => {
+  const [value, setValue] = useState("");
+
+  const handleSearch = (value) => {
+    setSearchValue(value);
   };
   return (
     <div>
       <div
         className="hero h-[80vh]"
         style={{
-          backgroundImage:
-            "url(https://i.ibb.co/s2mJzzn/Rectangle-4282.png)",
+          backgroundImage: "url(https://i.ibb.co/s2mJzzn/Rectangle-4282.png)",
         }}
       >
         <div className="hero-overlay bg-opacity-80 bg-white"></div>
@@ -22,13 +22,15 @@ const Banner = () => {
             </h1>
             <div className="flex justify-center">
               <input
+                onChange={(e) => setValue(e.target.value)}
                 type="text"
                 id="searchBtn"
                 placeholder="Type here"
-                className="input input-bordered rounded-r-none "
+                value={value}
+                className="input input-bordered rounded-r-none focus:outline-none"
               />
               <button
-                onClick={handleSearch}
+                onClick={() => handleSearch(value)}
                 className="btn btn-primary rounded-l-none"
               >
                 Search
