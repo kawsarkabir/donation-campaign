@@ -1,12 +1,22 @@
+import { useLoaderData } from "react-router-dom";
 import { PieChart, Legend, Pie, Cell, ResponsiveContainer } from "recharts";
 
 const Statistics = () => {
-  const data = [
-    { name: "Group A", value: 400 },
-    { name: "Group B", value: 300 },
-  ];
-  const COLORS = ["#00C49F", "#FF8042"];
+  const data = [];
+  const catagoriesData = useLoaderData();
+  const donationItems = JSON.parse(localStorage.getItem("donation")) || [];
 
+  const yourDonation = { name: "Your Donation" };
+  const totalDonation = { name: "Total Donation" };
+  const remainDonation = catagoriesData.length - donationItems.length;
+
+  yourDonation.value = donationItems.length;
+  totalDonation.value = remainDonation;
+
+  data.push(totalDonation);
+  data.push(yourDonation);
+
+  const COLORS = ["#00C49F", "#FF8042"];
   const RADIAN = Math.PI / 180;
   const renderCustomizedLabel = ({
     cx,
