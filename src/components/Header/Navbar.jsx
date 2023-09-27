@@ -4,9 +4,9 @@ const Navbar = () => {
   return (
     <nav>
       <div className="navbar max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <div className="navbar-start">
+        <div className="navbar-start flex-row-reverse lg:flex-row">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <label tabIndex={0} className="btn btn-ghost lg:hidden relative left-44">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
