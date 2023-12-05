@@ -1,10 +1,5 @@
 # donation-campaign
 
-## Private Repo Link
-
-[Click here for the private repo](https://classroom.github.com/a/ymFUnXH9)
-
-
 
 ###  Most Important Features in this project
 1. If you click on the campaign card then you can see the details of that card. I first created a dynamic path, then linked the card to that dynamic path. And I have done all the rest of the data loading

@@ -50,7 +50,7 @@
     "text_color": "#FF444A",
     "card_bg_color": "#ff444a26",
     "button_bg_color": "#ff444a33",
-    "title": "Better Food for Everyone",
+    "title": "Good education",
     "category": "Education",
     "price": 75,
     "description": "Families across the globe face the harsh reality of hunger every day. Your support can help nourish these families and put an end to food insecurity. Your donation of $75 can provide a month's supply of essential groceries to a struggling family. Together, we can work towards a world where no one has to worry about where their next meal will come from. Join us in the fight against hunger, and let's nourish families and communities together."
@@ -74,7 +74,7 @@
     "text_color": "#F87147",
     "card_bg_color": "#f8714726",
     "button_bg_color": "#f8714733",
-    "title": "Good education",
+    "title": "Better Food for Everyone",
     "category": "Food",
     "price": 40,
     "description": "Access to proper clothing is essential for comfort and dignity. Your support can provide warm clothing for individuals in need during winter and suitable attire for job interviews and daily life. Your donation of $40 can supply a winter coat, gloves, and a scarf to someone facing the cold season without adequate protection. Join us in spreading warmth for all seasons and ensuring that everyone has suitable clothing to face the challenges of life."
@@ -97,7 +97,7 @@
     "text_color": "#79C23F",
     "card_bg_color": "#79c23f26",
     "button_bg_color": "#79c23f33",
-    "title": "Clean water for children",
+    "title": "Used Clothing Drive",
     "category": "Clothing",
     "price": 300,
     "description": "Higher education can open doors to countless opportunities, but it often comes with a significant financial burden. Your contribution can change lives by funding scholarships for deserving students. Your generous donation of $300 can cover a portion of tuition fees for a university-bound student. Join us in supporting higher education and empowering the next generation of leaders and innovators."
@@ -119,7 +119,7 @@
     "text_color": "#0052FF",
     "card_bg_color": "#0052ff26",
     "button_bg_color": "#0052ff33",
-    "title": "Used Clothing Drive",
+    "title": "Clean water for children",
     "category": "Health",
     "price": 180,
     "description": "Maternal health is a critical concern, and your contribution can help ensure safe pregnancies and childbirth. Your donation of $180 can provide prenatal care and support to expectant mothers, reducing the risks associated with childbirth. Join us in supporting maternal health and giving every mother the care and attention she deserves."
